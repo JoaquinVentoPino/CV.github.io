@@ -1,3 +1,3 @@
-# curriculum.github.io
+# CV.github.io
 
-https://joaquinventopino.github.io/curriculum.github.io/
+https://joaquinventopino.github.io/CV.github.io/

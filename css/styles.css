@@ -1,0 +1,70 @@
+.fondoPastel {
+  background-color: #ffe7d4;
+  font-weight: bold;
+  padding: 1rem;
+  margin: 1.5rem 0rem;
+}
+* {
+  padding: 0px;
+  margin: 0px;
+  box-sizing: border-box;
+}
+.separador {
+  height: 0.5rem;
+  background-color: #ffe7d4;
+  border: none;
+}
+body {
+  background-color: #525659;
+}
+body section .panelizq {
+  background-color: #494e5f;
+  padding: 2rem 4rem;
+}
+body section .panelizq img {
+  border-radius: 100%;
+  width: 100%;
+  height: auto;
+}
+body section .panelizq h1 {
+  color: #ffe7d4;
+  font-weight: bold;
+}
+body section .panelizq hr {
+  height: 0.5rem;
+  background-color: #ffe7d4;
+  border: none;
+}
+body section .panelizq .perfilPersonal h1,
+body section .panelizq .aptitudes h1,
+body section .panelizq .info h1 {
+  margin: 2rem 0rem 1rem;
+}
+body section .panelizq .perfilPersonal p,
+body section .panelizq .aptitudes p,
+body section .panelizq .info p {
+  font-weight: lighter;
+  color: white;
+}
+body section .paneldrcha {
+  background-color: white;
+  padding: 2rem 4rem 15rem;
+}
+body section .paneldrcha h1 {
+  background-color: #ffe7d4;
+  font-weight: bold;
+  padding: 1rem;
+  margin: 1.5rem 0rem;
+}
+body section .paneldrcha .skills ul {
+  padding: 0px;
+  list-style-type: none;
+}
+body section .paneldrcha .skills ul li {
+  font-weight: bold;
+}
+@media screen and (min-width: 1440px) {
+  section {
+    width: 75%;
+  }
+}

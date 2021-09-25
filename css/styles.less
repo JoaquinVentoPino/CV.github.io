@@ -1,0 +1,77 @@
+@colorPastel: #ffe7d4;
+@colorGris: #494e5f;
+@colorFondoPDF: #525659;
+@color: red;
+
+.fondoPastel{
+    background-color: @colorPastel;
+    font-weight: bold;
+    padding: 1rem;
+    margin: 1.5rem 0rem;
+}
+
+*{
+    padding: 0px;
+    margin: 0px;
+    box-sizing: border-box;
+}
+
+.separador{
+    height: 0.5rem;
+    background-color: @colorPastel;
+    border: none;
+
+}
+
+body{
+    background-color: @colorFondoPDF;
+    section{
+        .panelizq{
+            background-color: @colorGris;
+            padding: 2rem 4rem;
+            img{
+                border-radius: 100%;
+                width: 100%;
+                height: auto;
+            }
+            h1{
+                color: @colorPastel;
+                font-weight: bold;
+            }
+            hr{
+                .separador
+            }
+            .perfilPersonal,.aptitudes,.info{
+                h1{
+                    margin: 2rem 0rem 1rem;
+                }
+                p{
+                    font-weight: lighter;
+                    color: white;
+                }
+            }
+        }
+        .paneldrcha{
+            background-color: white;
+            padding: 2rem 4rem 15rem;
+            h1{
+                .fondoPastel;
+            }
+            .skills{
+                ul{
+                    padding: 0px;
+                    list-style-type: none;
+                    li{
+                        font-weight: bold;
+                    }
+                }
+            }
+        }
+    }
+}
+
+@media screen and (min-width: 1440px){
+    section{
+        width: 75%;
+    }
+}

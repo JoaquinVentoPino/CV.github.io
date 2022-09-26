@@ -10,7 +10,7 @@
   box-sizing: border-box;
 }
 .separador {
-  height: 0.5rem;
+  height: 0.3rem;
   background-color: #ffe7d4;
   border: none;
 }
@@ -19,7 +19,7 @@ body {
 }
 body section .panelizq {
   background-color: #494e5f;
-  padding: 2rem 2.5rem;
+  padding: 2rem 1.5rem;
 }
 body section .panelizq img {
   border-radius: 100%;
@@ -28,10 +28,11 @@ body section .panelizq img {
 }
 body section .panelizq h1 {
   color: #ffe7d4;
-  font-weight: bold;
+  font-weight: normal;
+  font-family: "Montserrat";
 }
 body section .panelizq hr {
-  height: 0.5rem;
+  height: 0.3rem;
   background-color: #ffe7d4;
   border: none;
 }
@@ -45,16 +46,22 @@ body section .panelizq .aptitudes p,
 body section .panelizq .info p {
   font-weight: lighter;
   color: white;
+  font-family: "Montserrat";
 }
 body section .paneldrcha {
   background-color: white;
   padding: 2rem 4rem 15rem;
+  font-family: "Montserrat";
 }
 body section .paneldrcha h1 {
   background-color: #ffe7d4;
   font-weight: bold;
   padding: 1rem;
   margin: 1.5rem 0rem;
+  font-weight: normal;
+}
+body section .paneldrcha h3 {
+  font-weight: bold;
 }
 body section .paneldrcha .skills ul {
   padding: 0px;
@@ -62,6 +69,7 @@ body section .paneldrcha .skills ul {
 }
 body section .paneldrcha .skills ul li {
   font-weight: bold;
+  font-family: "Montserrat";
 }
 @media screen and (min-width: 1440px) {
   section {

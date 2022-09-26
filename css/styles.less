@@ -2,6 +2,7 @@
 @colorGris: #494e5f;
 @colorFondoPDF: #525659;
 @color: red;
+@font-Title: "Montserrat";
 
 .fondoPastel{
     background-color: @colorPastel;
@@ -17,10 +18,9 @@
 }
 
 .separador{
-    height: 0.5rem;
+    height: 0.3rem;
     background-color: @colorPastel;
     border: none;
-
 }
 
 body{
@@ -28,7 +28,7 @@ body{
     section{
         .panelizq{
             background-color: @colorGris;
-            padding: 2rem 2.5rem;
+            padding: 2rem 1.5rem;
             img{
                 border-radius: 100%;
                 width: 100%;
@@ -36,7 +36,8 @@ body{
             }
             h1{
                 color: @colorPastel;
-                font-weight: bold;
+                font-weight: normal;
+                font-family: @font-Title;
             }
             hr{
                 .separador
@@ -48,14 +49,20 @@ body{
                 p{
                     font-weight: lighter;
                     color: white;
+                    font-family: @font-Title;
                 }
             }
         }
         .paneldrcha{
             background-color: white;
             padding: 2rem 4rem 15rem;
+            font-family: @font-Title;
             h1{
                 .fondoPastel;
+                font-weight: normal;
+            }
+            h3{
+                font-weight: bold;
             }
             .skills{
                 ul{
@@ -63,6 +70,7 @@ body{
                     list-style-type: none;
                     li{
                         font-weight: bold;
+                        font-family: @font-Title;
                     }
                 }
             }
